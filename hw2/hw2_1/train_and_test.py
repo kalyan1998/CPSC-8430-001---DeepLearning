@@ -165,7 +165,7 @@ def test_and_evaluate(test_dataloader, model, index_to_word, test_label_json, ou
 def main():
     config = Config()
 
-    model_path = 'Shiva_HW3_model0.h5'
+    model_path = 'Shiva_HW2_model0.h5'
     if os.path.exists(model_path):
         print("Model file exists. Loading the model...")
         print("If you get an error, try providing training data folder input as '/MLDS_hw2_1_data/testing_data' do not provide / after testing_data")

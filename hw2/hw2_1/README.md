@@ -12,3 +12,5 @@ Replace /path/to/testing_data with the actual path to your testing data director
 Before testing the model, ensure that you have downloaded all the necessary files, including the model file (*.h5), object files (*.obj), and the testing_label.json file. If these files are not available, you can train the model again as described in step 1, which will generate these files.
 Note:
 The model file is saved as Shiva_HW2_model0.h5 by default. If you have a different model file, you may need to modify the script to load the correct file.
+
+If you encounter an error with the model downloaded using wget from hw2_seq2seq.sh, it could be due to extraction issues. In such cases, please use the direct download link from Google Drive(https://docs.google.com/uc?export=download&id=1mARNBxX3SCoCj1YkdeQa84KV_iR41A45) provided, Additionally, ensure that you run the model on a device with CUDA support, as it was trained using CUDA technology.

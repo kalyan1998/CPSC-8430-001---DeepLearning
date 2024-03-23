@@ -21,6 +21,8 @@ In addition to the base BERT model, the DistilBERT model from Huggingface has al
     Doc Stride: Implemented to handle long passages.
     Scheduler: An ExponentialLR scheduler is applied to adjust the learning rate during training.
 
+The Jupyter Notebooks used for testing on noisy data includes two separate cells: one for evaluating on Noise V1 with a 44% WER, and another for evaluating on Noise V2 with a 54% WER.
+
 Evaluation
 
 The scripts are designed to train and evaluate the model if a saved version isn't found. Alternatively, you can skip the training phase by downloading pre-trained models from the following link and proceed directly to evaluation:
